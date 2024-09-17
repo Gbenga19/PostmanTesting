@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "b676138d-700f-44f0-95bd-2ff58ca4277a",
+		"name": "Mycollection2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34587631",
+		"_collection_link": "https://api-tester-7990.postman.co/workspace/Api-Tutorial~997d5d2c-8d1e-4d36-8a04-de64bc0ca689/collection/34587631-b676138d-700f-44f0-95bd-2ff58ca4277a?action=share&source=collection_link&creator=34587631"
+	},
+	"item": [
+		{
+			"name": "ecommerce amazon",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-rapidapi-host",
+						"value": "real-time-amazon-data.p.rapidapi.com"
+					},
+					{
+						"key": "x-rapidapi-key",
+						"value": "c2cfc6da83msh07b840cae339471p142f3fjsn71aaf223b152"
+					}
+				],
+				"url": {
+					"raw": "{{newurl}}/product-category-list?country=US",
+					"host": [
+						"{{newurl}}"
+					],
+					"path": [
+						"product-category-list"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "US"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl --request GET \\\r\n\t--url 'https://real-time-amazon-data.p.rapidapi.com/product-category-list?country=US' \\\r\n\t--header 'x-rapidapi-host: real-time-amazon-data.p.rapidapi.com' \\\r\n\t--header 'x-rapidapi-key: c2cfc6da83msh07b840cae339471p142f3fjsn71aaf223b152'"
+			},
+			"response": []
+		}
+	]
+}
